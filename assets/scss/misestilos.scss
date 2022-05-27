@@ -5,9 +5,14 @@
 // Hago este @import para enlazar el archivo bootstrap.scss, donde realizaré los cambios de color y tipografía solicitados... 
 // además, para poder realizar los @extend requeridos en este archivo
 
+@import "bootstrap-5.1.3/scss/bootstrap";
+
 .card{
     @extend .text-light;
     @extend .bg-dark;
 }
 
-@import "bootstrap-5.1.3/scss/bootstrap";
+//Coloqué esta sombra sólo para efectos visuales y se vea un poco más el título de la tarjeta
+h5 {
+    text-shadow: 0 0 10px #FFF;
+  }
