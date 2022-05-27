@@ -4,4 +4,10 @@
 
 // Hago este @import para enlazar el archivo bootstrap.scss, donde realizaré los cambios de color y tipografía solicitados... 
 // además, para poder realizar los @extend requeridos en este archivo
+
+.card{
+    @extend .text-light;
+    @extend .bg-dark;
+}
+
 @import "bootstrap-5.1.3/scss/bootstrap";
