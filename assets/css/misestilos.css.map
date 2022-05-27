@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/misestilos.scss"
+    ],
+    "names": [],
+    "file": "misestilos.css"
+}
